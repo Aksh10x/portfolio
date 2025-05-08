@@ -1,13 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Navbar from './components/navbar'
+import Hero from './components/heroSection'
+import Work from './components/myWork'
+import MySkills from './components/mySkills'
+import ContactMe from './components/contactMe'
 
 function App() {
-
-
   return (
-    <div className=''>
-      hello
+    <div className='max-w-screen  w-full'>
+      <Navbar />
+      <Hero />
+      <Work />
+      <MySkills />
+      <ContactMe />
     </div>
   )
 }
